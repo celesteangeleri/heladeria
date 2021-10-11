@@ -1,0 +1,213 @@
+@media screen and (min-width: 480px) {
+    .logo {
+        color: white;
+    }
+    .main-header {
+        &__contactInfo {
+            text-align: right;
+            &__phone {
+                background: none;
+            }
+            &__address {
+                color: white;
+            }
+        }
+    }
+    .banner {
+        margin-top: -200px;
+        z-index: -1000;
+        &__content {
+            font-size: 2em;
+        }
+    }
+    .columna--50 {
+        width: 50%;
+    }
+    .columna--50-25 {
+        width: 49%;
+    }
+    .columna33 {
+        width: 33%;
+    }
+    .main-nav {
+        background: rgba($color: #000000, $alpha: 0.6);
+    }
+
+    .main {
+        &__about {
+            &__descripcion {
+                & .columna:nth-child(2) {
+                    padding: 20px;
+                    font-size: 1.1em;
+                }
+            }
+        }
+    }
+    .special {
+        & .columna {
+            padding: 5px;
+            border: 4px groove rgba($color: #f5a1e3, $alpha: 0.3);
+            border-radius: 2px;
+        }
+        &__img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 1%;
+        }
+    }
+
+    .main-footer{
+        & .containerFlex{
+            align-items: flex-start;
+            text-align: center;
+        }
+    }
+}
+@media screen and (min-width: 768px) {
+    .main {
+        &__titulo {
+            font-size: 2em;
+        }
+    }
+    .main {
+        &__about {
+            &__descripcion {
+                margin-top: 30px;
+                & .columna--50:nth-child(2) {
+                    font-size: 1.5em;
+                    & .columna__txt {
+                        line-height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .banner {
+        margin-top: -200px;
+        z-index: -1000;
+        &__content {
+            font-size: 2em;
+        }
+    }
+    .columna--50-25 {
+        width: 24.5%;
+    }
+    .grupo__title {
+        font-size: 2.7em;
+    }
+    .special {
+        &__title {
+            font-size: 1.3em;
+        }
+    }
+}
+@media screen and (min-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+    .logo {
+        font-size: 2.3em;
+        padding: 0;
+    }
+    .main-header {
+        &__contactInfo {
+            &__phone {
+                padding-right: 0;
+                font-size: 1.15em;
+            }
+            &__address {
+                padding-right: 0;
+                font-size: 1.15em;
+            }
+        }
+    }
+    .main-nav {
+        padding: 0;
+    }
+    .banner {
+        margin-top: -240px;
+        &__content {
+            font-size: 2.5em;
+            transform: translateX(-50%) translateY(-50%);
+        }
+        &__img{
+            height: 800px;
+        }
+    }
+    .icon-menu {
+        display: none;
+    }
+    .menu {
+        display: flex;
+        height: auto;
+        position: static;
+        width: auto;
+        &__link {
+            padding: 30px;
+        }
+    }
+    .grupo--color {
+        & .container {
+            width: 90%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 20px;
+        }
+    }
+    .main {
+        &__titulo {
+            font-size: 2.5em;
+        }
+        &__txt {
+            font-size: 1.2em;
+            line-height: 25px;
+        }
+    }
+    .main {
+        &__about {
+            &__descripcion {
+                & .columna--50:nth-child(2) {
+                    & .columna__txt {
+                        line-height: 50px;
+                    }
+                    & .img {
+                        width: 100%;
+                        height: 300px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    .special {
+        &__img {
+            height: 300px;
+        }
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .container {
+        width: 95%;
+    }
+    .main {
+        &__about {
+            &__descripcion {
+                & .columna:nth-child(1) {
+                    & .img {
+                        width: 100%;
+                        height: 350px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+    .banner {
+        margin-top: -270px;
+        z-index: -1000;
+        &__content {
+            font-size: 2em;
+        }
+    }
+}

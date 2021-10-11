@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box; 
+}
+body {
+    
+    margin: 0;
+}
+img{
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+h1, h2, h3{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.containerFlex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.columna {
+width: 100%;
+}

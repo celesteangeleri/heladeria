@@ -1,0 +1,27 @@
+.main-header {
+    width: 100%;
+    &__contactInfo {
+        &__phone {
+            background-color: salmon;
+            color: white;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        &__address {
+            padding: 10px;
+            margin: 0;
+        }
+    }
+    [class*="icon-"]:before {
+        position: relative;
+        top: 2px;
+        right: 5px;
+    }
+}
+.logo {
+    font-size: 1.8em;
+    color: black;
+    padding: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 100;
+}
