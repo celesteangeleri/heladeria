@@ -39,7 +39,7 @@
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
                 <li class="menu__item"><a href="sabores.html" class="menu__link">Sabores</a></li>
                 <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
-                <li class="menu__item"><a href="carrito.html" class="menu__link icon-shopping-cart" ></a></li>
+                <li class="menu__item"><a href="carrito.html" class="menu__link icon-shopping-cart"></a></li>
             </ul>
             <div class="social-icon">
                 <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
@@ -71,33 +71,26 @@
                     <h3 class="columna__title">Texto</h3>
                     <p class="columna__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum
                         perferendis ducimus quaerat fugit voluptatibus.</p>
-                 <a href="" class="btn btn--contacto">contacto</a>        
-                </div>  
-            </div>
-            
-        </section>
-        <section class="grupo special">
-            <h2 class="grupo__title">Algun titulo</h2>
-            <div class="container containerFlex">
-                <div class="columna columna--50-25">
-                    <img src="imagenes/chispas.jpg" alt="" class="special__img">
-                    <div class="special__title"> otro titulo </div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/arcoiris.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/paletas 2.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/sabores.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
+                    <a href="" class="btn btn--contacto">contacto</a>
                 </div>
             </div>
-        </section>
 
+        </section>
+        <section class="grupo">
+            <h2 class="grupo__title">Carrusel con JQuerry</h2>
+            <div class="carrusel">   
+                <ul class="slider">
+                    <li><img src="./imagenes/paleta frutilla.jpg" alt=""></li>
+                    <li><img src="./imagenes/paleta chocolate.jpg" alt=""></li>
+                    <li><img src="./imagenes/frutas.jpg" alt=""></li>
+                    <li><img src="./imagenes/carrito.jpg" alt=""></li>
+                </ul>
+                <div class="left"><span class="icon-arrow-left"></span></div>
+                <div class="right"><span class="icon-arrow-right"></span></div>
+                
+                
+            </div>
+        </section>
     </main>
     <footer class="main-footer">
         <div class="container containerFlex">
@@ -113,12 +106,13 @@
 
             </div>
             <div class="columna columna33">
-                <h2 class="comuna__title">horarios</h2>
+                <h2 class="columna__title">horarios</h2>
                 <p class="columna__txt">todos los dias 10am-8pm</p>
 
             </div>
         </div>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./js/productos.js"></script>
     <script src="./js/menu.js"></script>
 </body>

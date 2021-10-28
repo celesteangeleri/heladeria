@@ -38,21 +38,7 @@
     padding: 10px;
     margin: 10px auto;
 }
-.special {
-    & .columna {
-        margin-bottom: 30px;
-        text-align: center;
-    }
-    &__img {
-        margin: auto;
-        max-width: 350px;
-    }
-    &__title {
-        font-size: 1.3em;
-        padding-top: 10px;
-        padding-bottom: 20px;
-    }
-}
+
 .grupo {
     &__title {
         font-family: "Pacifico", cursive;

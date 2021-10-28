@@ -15,10 +15,10 @@
     }
     .banner {
         margin-top: -200px;
-        z-index: -1000;
+        z-index: -1;
         &__content {
             font-size: 2em;
-            z-index: 3000;
+            z-index: 3;
         }
     }
     .columna--50 {
@@ -85,7 +85,7 @@
     }
     .banner {
         margin-top: -200px;
-        z-index: -1000;
+        z-index: -1;
         &__content {
             font-size: 2em;
         }
@@ -206,7 +206,7 @@
     }
     .banner {
         margin-top: -270px;
-        z-index: -1000;
+        z-index: -1;
         &__content {
             font-size: 2em;
         }

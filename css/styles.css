@@ -51,7 +51,7 @@ h1, h2, h3 {
 .main-nav {
   width: 100%;
   position: relative;
-  z-index: 2000;
+  z-index: 2;
   padding: 10px; }
 
 .icon-menu {
@@ -137,19 +137,6 @@ h1, h2, h3 {
   padding: 10px;
   margin: 10px auto; }
 
-.special .columna {
-  margin-bottom: 30px;
-  text-align: center; }
-
-.special__img {
-  margin: auto;
-  max-width: 350px; }
-
-.special__title {
-  font-size: 1.3em;
-  padding-top: 10px;
-  padding-bottom: 20px; }
-
 .grupo__title {
   font-family: "Pacifico", cursive;
   text-align: center;
@@ -169,7 +156,7 @@ h1, h2, h3 {
     color: white;
     text-align: center;
     position: absolute;
-    z-index: 1500;
+    z-index: 2;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -182,8 +169,41 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
-  z-index: 1000;
+  z-index: 1;
   top: 0; }
+
+.carrusel {
+  position: relative; }
+  .carrusel img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    height: 500px; }
+  .carrusel ul, .carrusel ol {
+    list-style: none;
+    padding: 0; }
+  .carrusel .icon {
+    display: inline-block; }
+  .carrusel .slider {
+    width: 100%;
+    overflow: hidden; }
+
+.left, .right {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: salmon;
+  font-size: 35px;
+  cursor: pointer;
+  z-index: 2; }
+
+.left {
+  left: 30px; }
+
+.right {
+  right: 30px; }
 
 .main-footer {
   background: #222;
@@ -204,10 +224,10 @@ h1, h2, h3 {
       color: white; }
   .banner {
     margin-top: -200px;
-    z-index: -1000; }
+    z-index: -1; }
     .banner__content {
       font-size: 2em;
-      z-index: 3000; }
+      z-index: 3; }
   .columna--50 {
     width: 50%; }
   .columna--50-25 {
@@ -242,7 +262,7 @@ h1, h2, h3 {
         line-height: 40px; }
   .banner {
     margin-top: -200px;
-    z-index: -1000; }
+    z-index: -1; }
     .banner__content {
       font-size: 2em; }
   .columna--50-25 {
@@ -310,7 +330,7 @@ h1, h2, h3 {
     object-fit: cover; }
   .banner {
     margin-top: -270px;
-    z-index: -1000; }
+    z-index: -1; }
     .banner__content {
       font-size: 2em; } }
 
