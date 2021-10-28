@@ -107,7 +107,7 @@ h1, h2, h3 {
     background-color: salmon; }
 
 .mostrar {
-  height: 195px; }
+  height: 242px; }
 
 .grupo--color .container {
   background-color: rgba(250, 128, 114, 0.7);
@@ -206,7 +206,8 @@ h1, h2, h3 {
     margin-top: -200px;
     z-index: -1000; }
     .banner__content {
-      font-size: 2em; }
+      font-size: 2em;
+      z-index: 3000; }
   .columna--50 {
     width: 50%; }
   .columna--50-25 {
@@ -366,16 +367,37 @@ h1, h2, h3 {
     border-radius: 50%;
     margin: auto; }
   .sabores__txt {
-    padding: 10px; }
+    padding: 10px;
+    font-size: 1.8em; }
   .sabores__title {
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     color: salmon;
     font-weight: lighter;
-    font-size: 1.8em;
+    font-size: 1.9em;
     margin-bottom: 10px;
     border-bottom: solid 2px black; }
   .sabores__precio {
-    margin-bottom: 30px; }
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 10%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    background-color: #e9b1ab;
+    color: white;
+    padding: 10px;
+    margin: 20px auto; }
+  .sabores__boton {
+    margin-bottom: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: 120px;
+    background-color: salmon;
+    color: white;
+    padding: 10px;
+    margin: 10px auto; }
   .sabores .containerFlex {
     align-items: flex-start;
     margin: 30px 0 30px 0; }
@@ -396,8 +418,8 @@ h1, h2, h3 {
 
 @media screen and (min-width: 1024px) {
   .sabores__img {
-    width: 280px;
-    height: 280px; }
+    width: 250px;
+    height: 250px; }
   .sabores__title {
     font-size: 2.1em; }
   .columna {
@@ -405,7 +427,76 @@ h1, h2, h3 {
 
 @media screen and (min-width: 1600px) {
   .sabores__img {
-    width: 400px;
-    height: 400px; }
+    width: 300px;
+    height: 300px; }
   .columna {
     padding: 45px; } }
+
+.contacto-info {
+  padding: 10px;
+  padding-top: 0;
+  margin-bottom: 30px;
+  border-bottom: 1px solid salmon; }
+  .contacto-info [class*="icon-"] {
+    font-size: 1.3em;
+    margin-right: 7px;
+    position: relative;
+    top: 5px; }
+  .contacto-info .social-icon {
+    justify-content: flex-start;
+    margin-bottom: 10px; }
+    .contacto-info .social-icon [class*="icon-"] {
+      background-color: black;
+      color: white;
+      margin-left: 0;
+      margin-right: 15px; }
+
+.columna__title {
+  font-family: "pacifico", cursive;
+  font-weight: 100; }
+
+.formulario {
+  padding: 10px;
+  padding-top: 0; }
+  .formulario__label {
+    display: block;
+    width: 100%; }
+  .formulario__input--txt {
+    padding: 10px;
+    margin-bottom: 10px; }
+  .formulario__textarea {
+    min-height: 100px;
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 200px; }
+  .formulario__btn {
+    border: none;
+    cursor: pointer;
+    font-size: 1em; }
+
+@media screen and (min-width: 480px) {
+  .contacto .containerFlex {
+    align-items: flex-start; }
+  .contacto-info p {
+    font-size: 0.8em; }
+  .contacto-info {
+    border-right: 1px solid salmon;
+    border-bottom: none; } }
+
+@media screen and (min-width: 480px) {
+  .contacto-info p {
+    font-size: 1em; }
+  .columna__title {
+    font-size: 1.5em; } }
+
+.gris {
+  background-color: gray; }
+
+.rosa {
+  background-color: pink; }
+
+.centrar {
+  text-align: center; }
+
+input {
+  width: 45%; }

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&family=Pacifico&display=swap"
         rel="stylesheet">
-    <title> Heladeria</title>
+    <title>Contacto | Heladeria</title>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
         <div class="container containerFlex">
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">Inicio</a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link">Inicio</a></li>
                 <li class="menu__item"><a href="nosotros.html" class="menu__link">Nosotros</a></li>
                 <li class="menu__item"><a href="sabores.html" class="menu__link">Sabores</a></li>
-                <li class="menu__item"><a href="contacto.html" class="menu__link">Contacto</a></li>
+                <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contacto</a></li>
                 <li class="menu__item"><a href="carrito.html" class="menu__link icon-shopping-cart" ></a></li>
             </ul>
             <div class="social-icon">
@@ -49,56 +49,49 @@
         </div>
     </nav>
     <section class="banner">
-        <img src="./imagenes/banner.jpg" alt="" class="banner__img">
-        <div class="banner__content"> Helado Artesanal</div>
+        <img src="./imagenes/locales.jpg" alt="" class="banner__img">
+        <div class="banner__content"> Contactate con Nosotros</div>
     </section>
-
     <main class="main">
-        <section class="grupo grupo--color">
-            <div class="container">
-                <h2 class="main__titulo"> Los mejores ingredientes</h2>
-                <p class="main__txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sunt nam, magnam
-                    iure beatae officiis ullam quisquam facilis. Adipisci asperiores ad at dolore magni eius quasi nisi,
-                    exercitationem debitis voluptatum!</p>
-            </div>
-        </section>
-        <section class="grupo main__about__descripcion">
+        <section class="grupo contacto">
+            <section class="grupo grupo--color">
+                <div class="container">
+                    <h2 class="main__titulo"> Dejanos un mensaje</h2>
+                </div>
+            </section>
             <div class="container containerFlex">
-                <div class="columna columna--50">
-                    <img src="imagenes/sandia.jpg" alt="" class="img">
+                <div class="contacto-info columna columna--50">
+                    <h3 class="columna__title">informacion de contacto</h3>
+                    <p class="columna__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus odio iste
+                        accusantium reiciendis praesentium iusto?</p>
+                    <p class="columna__txt"><span class="icon-phone"></span>Telefono: 261-555-555</p>
+                    <p class="columna__txt"><span class="icon-phone"></span>Telefono: 261-333-333</p>
+                    <p class="columna__txt"><span class="icon-location"></span>Belgrano 5000 - Mendoza, Argentina</p>
+                    <p class="columna__txt"><span class="icon-mail"></span>consultas@misitio.com</p>
+                    <div class="social-icon">
+                        <a href="" class="social-icon__link"><span class="icon-facebook"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-twitter"></span></a>
+                        <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
+                    </div>
                 </div>
-                <div class="columna columna--50">
-                    <h3 class="columna__title">Texto</h3>
-                    <p class="columna__txt">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae nostrum
-                        perferendis ducimus quaerat fugit voluptatibus.</p>
-                 <a href="" class="btn btn--contacto">contacto</a>        
-                </div>  
-            </div>
-            
-        </section>
-        <section class="grupo special">
-            <h2 class="grupo__title">Algun titulo</h2>
-            <div class="container containerFlex">
-                <div class="columna columna--50-25">
-                    <img src="imagenes/chispas.jpg" alt="" class="special__img">
-                    <div class="special__title"> otro titulo </div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/arcoiris.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/paletas 2.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
-                </div>
-                <div class="columna columna--50-25">
-                    <img src="imagenes/sabores.jpg" alt="" class="special__img">
-                    <div class="special__title">otro titulo</div>
-                </div>
+
+                <form class="formulario columna columna--50">
+                    <label for="" class="formulario__label">Nombre:</label>
+                    <input type="text" class="formulario__input--txt" name="nombre">
+                    <label for="" class="formulario__label">Correo:</label>
+                    <input type="text" class="formulario__input--txt" name="correo">
+                    <label for="" class="formulario__label">Telefono:</label>
+                    <input type="text" class="formulario__input--txt" name="telefono">
+                    <label for="" class="formulario__label">Mensaje:</label>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea">                       
+                    </textarea>
+                    <input type="submit" class="btn formulario__btm" value="enviar">
+                </form>
             </div>
         </section>
 
     </main>
+
     <footer class="main-footer">
         <div class="container containerFlex">
             <div class="columna columna33">
@@ -119,7 +112,7 @@
             </div>
         </div>
     </footer>
-    <script src="./js/productos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="./js/menu.js"></script>
 </body>
 

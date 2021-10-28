@@ -1,0 +1,25 @@
+@media screen and (min-width: 480px) {
+    .contacto {
+        & .containerFlex {
+            align-items: flex-start;
+        }
+    }
+    .contacto-info p {
+        font-size: 0.8em;
+    }
+    .contacto-info {
+        border-right: 1px solid salmon;
+        border-bottom: none;
+    }
+}
+@media screen and (min-width: 480px){
+    .contacto-info p {
+        font-size: 1em;
+    }
+    .columna {
+        &__title {
+            font-size: 1.5em;
+            
+        }
+    }
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Back Office</title>
+</head>
+
+<body>
+    <section class="grupo main__about__descripcion">
+        <div class="container containerFlex">
+            <div class="columna columna--50 gris">
+                <h2>informacion formulario</h2>
+            </div>
+            <div class="columna columna--50 rosa centrar">
+                <h2>cargar productos</h2>
+                <form class="formulario columna">
+                    <!--sabor-->
+                    <label for="sabor" class="formulario__label">ingrese el sabor del producto:</label>
+                    <input type="text" id="sabor" class="formulario__input--txt" name="sabor">
+                    <!--categoria-->
+                    <label for="categoria" class="formulario__label">ingrese categoria del producto:</label>
+                    <input type="text" id="categoria" class="formulario__input--txt" name="categoria">
+                    <!--stock-->
+                    <label for="stock" class="formulario__label">Ingrese la cantidad de productos:</label>
+                    <input type="number" id="stock" class="formulario__input--txt" name="stock">
+                    <!--ruta de imagen-->
+                    <label for="img" class="formulario__label"> ingrese ruta de imagen del producto:</label>
+                    <input type="text" id="img" class="formulario__input--txt" name="img">
+                    <!--boton Subir productos-->
+                    <button type="submit" onclick="ingresarProductos()" id="subirProducto" class="btn formulario__btm">Enviar</button>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+    <script src="./js/backoffice.js"></script>
+</body>
+
+</html>
