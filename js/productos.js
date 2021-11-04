@@ -40,9 +40,3 @@ const comprar = (index) => {
 
 
 }
-/*<div class="columna columna33">
-                    <img src="imagenes/frutilla.png" alt="" class="sabores__img">
-                    <h3 class="sabores__title">Frutilla</h3>
-                    <p class="sabores__txt">Lorem ipsum dolor, sit amet consectetur.</p>
-                    <button id="btnCarrito" class="sabores__precio">$9.00</button>
-                </div>*/

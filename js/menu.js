@@ -8,7 +8,7 @@ btnmenu.addEventListener('click', function () {
 })
 
 
-//-----carrusel---///
+////////////////////////////////////////-----carrusel---///////////////////////////////////////////////////////////////////
 $(document).ready(function () {
     var imgItems = $('.slider li').length; // Numero de Slides
     var imgPos = 1;
