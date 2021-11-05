@@ -1,0 +1,39 @@
+[
+    {
+        "sabor": "Vainilla",
+        "categoria":"Helado de Crema ",
+        "stock":"30",
+        "img": "./imagenes/vainilla.png"
+    },
+    {
+        "sabor": "Arandanos",
+        "categoria":"Helado de Crema ",
+        "stock":"30",
+        "img": "./imagenes/arandanos.jpg"
+    },
+    {
+        "sabor": "Frambuesa",
+        "categoria":"Helado de Agua ",
+        "stock":"30",
+        "img": "./imagenes/frambuesa.png"
+    },
+    {
+        "sabor": "Frutilla",
+        "categoria":"Helado de Agua ",
+        "stock":"30",
+        "img": "./imagenes/frutilla al agua.jpg"
+    },{
+        "sabor": "Paleta de Chocolate",
+        "categoria":"Paletas",
+        "stock":"30",
+        "img": "./imagenes/paleta chocolate.jpg"
+    },
+    {
+        "sabor": "Paletas de Fruta",
+        "categoria":"Paletas",
+        "stock":"30",
+        "img": "./imagenes/paleta fruta.jpg"
+    }
+
+    
+]

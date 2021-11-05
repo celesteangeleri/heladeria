@@ -1,3 +1,4 @@
+
 let listaObjetos = [];
 let imprimirDatos = $("#productosPrint");
 
