@@ -9,14 +9,17 @@ class Producto {
     }
 }
 
-let listaProductos;
 //si la lista no tiene informacion la declara vacia//
-if (localStorage.getItem("lista") == null) {
-    listaProductos = []
-    //si la lista si tiene informacion, nos muestra los productos//
-} else {
-    listaProductos = JSON.parse(localStorage.getItem("lista"))
+let listaProductos = [];
+setTimeout(init, 100);
+
+function init() {
+    if (localStorage.getItem("lista") !== null) {
+        //si la lista si tiene informacion, nos muestra los productos//
+        listaProductos = JSON.parse(localStorage.getItem("lista"))
+    }
 }
+
 
 //funcion factory para crear productos//
 const crearProducto = (sabor, categoria, precio, stock, img) => {
@@ -26,8 +29,7 @@ const crearProducto = (sabor, categoria, precio, stock, img) => {
 
 
 //crea un objeto//
-function crear(){
-
+function crear() {
     const sabor = document.getElementById("sabor").value;
     const categoria = document.getElementById("categoria").value;
     const stock = parseInt(document.getElementById("stock").value);
