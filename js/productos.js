@@ -1,8 +1,8 @@
 
 setTimeout(init, 100);
-
+let listaObjetos = [];
 function init() {
-    let listaObjetos = [];
+    
     let imprimirDatos = $("#productosPrint");
     
     if (localStorage.getItem("lista") !== null) {
