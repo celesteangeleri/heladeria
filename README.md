@@ -7,6 +7,6 @@
 ## 📫 Y podes contactarme por aqui angelericeleste@gmail.com
 
 ## Vista previa de mi pagina 
-![heladeria](https://imgur.com/z7sjKlb)
+![heladeria](https://i.imgur.com/z7sjKlb.gif[/img])
 
 para editar el sass "npm run watch-css"
