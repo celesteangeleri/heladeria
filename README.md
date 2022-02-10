@@ -8,6 +8,7 @@
 
 ## Vista previa de mi pagina
 
-![heladeria](https://i.imgur.com/z7sjKlb.gif)
+![heladeria](https://user-images.githubusercontent.com/50773997/153412816-67f746b8-abad-44cb-a386-9f0c43cce24d.gif)
+
 
 para editar el sass "npm run watch-css"
